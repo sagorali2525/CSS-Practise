@@ -1,0 +1,154 @@
+/* ===================================
+             Css Practise
+ =====================================*/
+
+ h1{
+    color: black;
+    text-align: center;
+}
+
+.slide p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    border: 3px solid black;
+    margin: 0 70px;
+    padding: 18px 14px;
+    text-align: center;
+}
+.para-content p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    border: 3px dotted black;
+    margin: 10px 70px;
+    padding: 18px 14px;
+    text-align: center;
+}
+.double p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    border: 3px double black;
+    margin: 10px 70px;
+    padding: 18px 14px;
+    text-align: center;
+}
+.inset p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    margin: 10px 70px;
+    padding: 18px 14px;
+    text-align: center;
+}
+.outset p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    margin: 10px 70px;
+    padding: 18px 14px;
+    text-align: center;
+    border-radius: 50px;
+}
+.mixed p{
+    font-size: 18px;
+    color: rgb(255 12 12);
+    margin: 10px 70px;
+    padding: 18px 14px;
+    text-align: center;
+}
+.inset p {border-style: inset;}
+.outset p {border-style: outset;}
+.mixed p {border-style: dotted dashed solid double;}
+
+		h2{
+			color: orangered;
+        }
+ .image-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 70px;
+}
+	body{
+	background-color: rgb(115, 207, 207);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	table{
+			width: 60%;
+			margin:auto;
+			text-align:center;
+}
+	table, tr, th, td{
+		padding: 20px 20px;
+		color:red;
+		border: 2px solid #080808;
+		border-collapse:collapse;
+}
+	td:hover{
+		background:white;
+		cursor: pointer;
+}
+
+input#fname {
+    padding: 5px 5px;
+    margin: 10px 0px;
+    height: 40px;
+    width: 380px;
+    /* margin-top: 8px; */
+}
+input#lname {
+    margin: 10px 0;
+    height: 40px;
+    width: 380px;
+    padding: 5px 5px;
+}
+.form {
+    width: 20%;
+    margin: 0 auto;
+}
+form {
+    text-align: center;
+}
+.form {
+    width: 40%;
+    margin: 0 auto;
+    background-color: burlywood;
+    height: 708px;
+}
+label {
+    font-size: 15px;
+    margin-right: 310px;
+    /* margin-top: 179px; */
+}
+textarea#floatingTextarea {
+    height: 159px;
+    width: 390px;
+    margin-top: 8px;
+}
+.form-button button {
+    font-size: 15px;
+    padding: 12px 43px;
+    margin-right: 240px;
+    margin-top: 14px;
+    background-color: #0095ff;
+    border: 1px solid #0095ff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-button button:hover {
+  background-color: rgb(241, 139, 139);
+  transition: 0.3s;
+  border-color:rgb(241, 139, 139);
+}
+.form-wrapper h1 {
+    padding-top: 50px;
+}
+input#Email {
+    margin: 10px 0;
+    height: 40px;
+    width: 380px;
+    padding: 5px 5px;
+}
+
+
+/* ===================================
+             Css Practise
+ =====================================*/
